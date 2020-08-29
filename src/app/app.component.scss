@@ -1,0 +1,65 @@
+.main {
+  .profile {
+    background: #0cebeb;
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+
+    padding: 30px 10px;
+    .social-connect {
+      a {
+        color: #333;
+      }
+      :hover {
+        color: #428bca;
+      }
+    }
+  }
+  .skills {
+    padding: 30px 10px;
+    margin: 25px auto;
+    .skills-question {
+      text-align: center;
+      font-size: 48px;
+    }
+    .skills-card {
+      margin: 15px auto;
+      .skills-title {
+        background-color: #666;
+        color: #f9f9f9;
+        padding: 5px;
+        text-align: center;
+      }
+    }
+  }
+  .footer {
+    background-color: #000;
+    color: #fff;
+    p {
+      text-align: center;
+      padding: 2px;
+      margin: 0;
+      span {
+        color: #f00;
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+#profile-image {
+  border-radius: 50%;
+  width: 260px;
+}
+
+.icons {
+  position: relative;
+  width: auto;
+  font-size: 56px;
+  line-height: 2;
+}
+
+.separator {
+  border-bottom: 1px solid #333;
+  margin: 30px auto;
+  width: 90%;
+}
